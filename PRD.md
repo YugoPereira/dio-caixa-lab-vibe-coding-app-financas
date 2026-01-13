@@ -63,4 +63,23 @@ O sistema deve utilizar o Supabase para Autenticação e Persistência de dados.
 ### C. Dashboard "Máquina do Tempo"
 - **Filtro Global:** Um seletor de Data (Mês/Ano) no topo da tela.
 - **Reatividade:** Ao mudar a data, todos os componentes abaixo devem atualizar:
-    - Cards
+    - Cards de Resumo (Receita, Despesa, Saldo).
+    - Gráfico de Rosca (Gastos por Categoria).
+    - Lista de Transações recentes (filtrada pelo mês).
+
+### D. Gestão de Investimentos
+- Interface simples para listar ativos e atualizar valores atuais.
+
+---
+
+## 4. Requisitos de Design (UI/UX)
+- **Tema:** "Clean Fintech". Fundo claro (Slate-50), cartões brancos com sombras suaves.
+- **Cores Semânticas:**
+    - Receita/Positivo: Emerald-600.
+    - Despesa/Negativo/Alerta: Rose-600.
+    - IA/Bot: Violet-600.
+- **Mobile First:** Barra de navegação inferior (Tab Bar) fixa para facilitar o uso em celulares.
+
+## 5. Fluxo de Dados da IA (Prompt System)
+O sistema deve usar um prompt interno similar a:
+*"Você é um assistente financeiro. Analise a mensagem ou imagem do usuário. Extraia data, valor, categoria e descrição. Retorne APENAS um objeto JSON no formato: { amount: number, type: 'income'|'expense', category: string, date: 'YYYY-MM-DD', description: string }."*
