@@ -1,6 +1,6 @@
 <p align="center">
 <img 
-    src="./assets/cover.png" 
+    src="./cover.png" 
     width="100%"
     alt="FinChat AI Cover"
 />
@@ -61,8 +61,8 @@ Siga o passo a passo abaixo para reproduzir este projeto:
 ## 📸 Screenshots
 
 <p align="center">
-  <img src="./assets/chat_print.png" alt="Chat Inteligente" width="45%">
-  <img src="./assets/dashboard_print.png" alt="Dashboard" width="45%">
+  <img src="./chat_print.png" alt="Chat Inteligente" width="45%">
+  <img src="./dashboard_print.png" alt="Dashboard" width="45%">
 </p>
 
 ## 👨‍💻 Expert
