@@ -45,7 +45,7 @@ O projeto consiste em um **Gerenciador Financeiro Inteligente** que permite regi
 
 ## 📚 Materiais
 
-- [Prompt (PRD) Utilizado](./docs/PRD.md)
+- [Prompt (PRD) Utilizado](./PRD.md)
 - [Link do App Publicado](https://yubi-finchat.lovable.app/)
 - [Google AI Studio (Gerar Chaves)](https://aistudio.google.com/)
 
